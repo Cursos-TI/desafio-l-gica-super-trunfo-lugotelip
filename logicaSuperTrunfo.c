@@ -20,10 +20,10 @@ void cadastrarCidade(Cidade* cidade, char estado, int numero) {
     //Solicitar os dados ao usuário
     printf("Cadastro da cidade %s:\n", cidade->codigo);
     printf("População: ");
-    scanf("%d, &cidade->populacao");
+    scanf("%d", &cidade->populacao);
 
     printf("Área (em km²): ");
-    scanf("%f, &cidade->area");
+    scanf("%f", &cidade->area);
 
     printf("PIB (em milhões): ");
     scanf("%f", &cidade->pib);
